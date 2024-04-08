@@ -19,10 +19,6 @@ function App() {
           "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,JPY,EUR"
         );
         const dataExchangeRate = await responseExchangeRate.json();
-        const otherSource = await fetch(
-          "https://api.nordl.io/api/btc-halving-data"
-        );
-        const otherSourceData = await otherSource.json();
         const eventBlockHeight = dataBlockchain.n_blocks_total;
         const currentBlockHeight = dataBlockchain.n_blocks_total;
         const blockTime = dataBlockchain.minutes_between_blocks;
@@ -33,8 +29,8 @@ function App() {
         const difficulty = dataBlockchain.difficulty;
    
         const estTimeRemainingMinutes =
-          Number(otherSourceData.data.approxBlockTime) *
-          Number(otherSourceData.data.blocksUntilHalving);
+          Number(dataBlockchain.minutes_between_blocks) *
+          Number(1711);
 
         const estTimeRemainingMillis = estTimeRemainingMinutes * 60 * 1000;
 
