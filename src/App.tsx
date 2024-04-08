@@ -2,7 +2,7 @@ import "./App.css";
 import { InfoBox } from "./components/Timer/Timer";
 import { Typography, Sheet, Header } from "./components/";
 import { useEffect, useState } from "react";
-import { aboutBTCHalvingConfig } from "./config/aboutBTCHalvingConfig";
+import { aboutBTCHalvingConfig } from "./config/aboutBTCHalvingConfig.ts";
 
 function App() {
   const [date, setDate] = useState<any>(null);

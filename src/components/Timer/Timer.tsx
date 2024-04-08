@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 const TimerContainer = ({ value, time }: { value: string; time: string }) => {
   return (
     <div className="w-[120px] h-[120px] py-4 px-9 flex flex-col justify-center items-center text-[#333] bg-black/10 backdrop-blur-md border border-white/30 p-5 rounded-lg text-white max-w-sm m-8">
-      <p className="text-[48px]">{value}</p>
-      <p className="">{time}</p>
+      <p className="text-[48px]   text-[#333]">{value}</p>
+      <p className="  text-[#333]">{time}</p>
     </div>
   );
 };
