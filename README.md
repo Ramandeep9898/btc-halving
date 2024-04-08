@@ -3,7 +3,7 @@
 <div align="center">
 
 
-[![React](https://img.shields.io/badge/React%20Native-Expo-blue)](https://reactnative.dev/)
+[![React](https://img.shields.io/badge/React)](https://reactnative.dev/)
 ![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
 
 <img src="https://i.ibb.co/473Ybdd/Screenshot-2024-02-12-at-4-43-16-PM.png" height="30" /> ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
