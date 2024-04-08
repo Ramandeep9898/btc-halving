@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+<h2 align="center">Built with ❤️</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
 
-## Expanding the ESLint configuration
+<img src="https://i.ibb.co/473Ybdd/Screenshot-2024-02-12-at-4-43-16-PM.png" height="30" /> ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<img src="https://i.ibb.co/98pbkvw/Screenshot-2024-02-12-at-4-49-19-PM.png" height="30" />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+</div>
 
-- Configure the top-level `parserOptions` property like this:
+## Run the app locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Clone the project
+
+```bash
+  git clone https://github.com/Ramandeep9898/btc-halving.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Go to the project directory
+
+```bash
+  cd btc-counter
+```
+
+### Install dependencies
+
+```bash
+  yarn
+```
+
+### Run the Development Server
+
+```bash
+  yarn dev
+```
